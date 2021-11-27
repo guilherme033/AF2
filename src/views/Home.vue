@@ -1,18 +1,45 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div>
+  <h1>{{title}}</h1>
+  <h1>{{titleview}}</h1>
+  <v-row>
+      <v-col
+        v-for="(data,i) in myCards"
+        :key="i"
+        cols="12"
+        sm="6"
+        md="4"
+        xs="2"
+      >
+      {{data}}
+          <MyCard :cardid="i" :cardInfo="data"></MyCard>
+      </v-col>
+    </v-row>
+  
+
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MyCard from '../components/MyCard'
 
 export default {
   name: 'Home',
+  data(){
+    return{
+      titleview: this.$store.state.title
+    }
+  },
+  computed:{
+    myCards(){
+      return this.$store.state.cards
+    },
+    title(){
+      return this.$store.getters.bigTitle
+    }
+  },
   components: {
-    HelloWorld
-  }
+    MyCard,
+  },
 }
 </script>
