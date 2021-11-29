@@ -1,0 +1,20 @@
+#myBody{
+    width: 100%;
+}
+
+#nameCompany{
+    font-family: "Base 05";
+    color: white;
+}
+
+#myContent{
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999999;
+}
