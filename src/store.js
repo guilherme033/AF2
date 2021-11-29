@@ -10,6 +10,8 @@ export default new Vuex.Store({
             {title: "Environnement II",     src: "https://i.pinimg.com/originals/d5/49/fd/d549fd5a412049a67028166c225eeae5.jpg"},
             {title: "Environnement III",    src: "https://leparisblog.com/wp-content/uploads/2016/09/fontaine-de-belleville-6.jpg"},
             {title: "Environnement IV",     src: "https://i0.wp.com/www.urbansider.com/wp-content/uploads/2019/06/FontainedeBelleville.jpg?fit=1080%2C1346&ssl=1"},
+            {title: "Environnement V",      src: "https://cafedelafontaine.com.au/wp-content/uploads/2020/04/img_1831.jpg?w=640"},
+            {title: "Environnement VI",     src: "https://media-cdn.tripadvisor.com/media/photo-s/1a/f0/e8/8b/photo1jpg.jpg"},
         ],
         frappes: [
             {title: "Frappe I",     src: "https://diethood.com/wp-content/uploads/2018/07/Frappe-Coffee.jpg"},
