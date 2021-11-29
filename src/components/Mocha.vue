@@ -1,6 +1,6 @@
 <template>
-    <v-card class="mx-auto" max-width="345">
-        <v-img :src="src" height="400px"></v-img>
+    <v-card class="mx-auto" max-width="500">
+        <v-img :src="src" height="500px"></v-img>
 
         <v-card-title class="d-flex justify-center">
             {{ title }}

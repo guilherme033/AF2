@@ -23,7 +23,7 @@
 
                     <template v-slot:extension>
                         <v-tabs color="white" align-with-title>
-                            <v-tab @click="goHomes">    Début</v-tab>
+                            <v-tab @click="goHome">    Début</v-tab>
                             <v-tab @click="goFrappes">  Frappes</v-tab>
                             <v-tab @click="goLattes">   Lattes</v-tab>
                             <v-tab @click="goMochas">   Mochas</v-tab>
@@ -62,7 +62,7 @@
                 <v-card flat tile class="blue white--text text-center">
                     <v-card-text>
                         <v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon>
-                            <v-icon size="20px">
+                            <v-icon size="24px">
                                 {{ icon }}
                             </v-icon>
 
@@ -70,7 +70,7 @@
                         </v-card-text>
 
                     <v-card-text class="white--text pt-0">
-                        Ceci est le « footer » du site, comme dans footer, il y a foot, il y a donc chaussette! Nous sommes donc persuadés que l’Internet a été créé en buvant un jus de chaussette… Cependant nous ne savons pas s’il était bon ou non… Si vous avez des indices dans notre quête, envoyez nous un Tweet à @cafesbelleville!
+                        Ceci est le « footer » du site, comme dans footer, il y a foot, il y a donc chaussette! Nous sommes donc persuadés que l’Internet a été créé en buvant un jus de chaussette… Cependant nous ne savons pas s’il était bon ou non… Si vous avez des indices dans notre quête, envoyez nous un Tweet à @cafesbelleville! envoyez nous un Tweet à @cafesbelleville.
                     </v-card-text>
 
                     <v-divider></v-divider>
