@@ -59,7 +59,7 @@
             </v-card>
 
             <v-footer blue padless>
-                <v-card flat tile class="blue white--text text-center">
+                <v-card flat tile class="black white--text text-center">
                     <v-card-text>
                         <v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon>
                             <v-icon size="24px">
