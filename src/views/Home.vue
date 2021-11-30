@@ -8,8 +8,8 @@
     ></v-carousel-item>
   </v-carousel>
 
-        <v-alert class="mt-5 text-center" color="grey darken-4" text-center dark dense>
-            Environnements
+        <v-alert class="mt-5 text-center" color="white" text-center dark dense>
+            
         </v-alert>
 
         <v-row>
