@@ -1,9 +1,9 @@
 #1
-![image](https://user-images.githubusercontent.com/64237760/143800536-2b3b120f-d049-4a2f-abcb-2253dd65cdae.png)
+![image](https://user-images.githubusercontent.com/64237760/143974378-4e730dca-175e-452d-8103-c7616210de06.png)
 
 
 #2
-![image](https://user-images.githubusercontent.com/64237760/143800657-e55903a9-24b9-4ad7-929c-5731f845f3b4.png)
+![image](https://user-images.githubusercontent.com/64237760/143974447-06dccf5d-23ee-4e5f-a8a7-7f8dee256bbc.png)
 
 
 #3
