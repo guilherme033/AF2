@@ -7,15 +7,15 @@
 
 
 #3
-![image](https://user-images.githubusercontent.com/64237760/143968477-b6c55308-4997-424c-95d4-fbb81e6ea9e4.png)
+![image](https://user-images.githubusercontent.com/64237760/143974959-034ed006-15fa-47ec-aa78-3e5c4cb9a6f6.png)
 
 
 #4
-![image](https://user-images.githubusercontent.com/64237760/143968536-dab664e8-7e22-4a17-9a61-62c9ef614fb5.png)
+![image](https://user-images.githubusercontent.com/64237760/143974997-606f7d12-7602-47d3-91f0-c8e7801f0ced.png)
 
 
 #5
-![image](https://user-images.githubusercontent.com/64237760/143968580-3a49fcdb-4d70-4bc3-8a4e-8d9310919690.png)
+![image](https://user-images.githubusercontent.com/64237760/143975043-336313f5-caca-488b-a364-e3e43f1f08f9.png)
 
 
 #6
