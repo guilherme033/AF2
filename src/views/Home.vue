@@ -1,9 +1,12 @@
 <template>
     <div>
-        <v-carousel>
-            <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition">
-            </v-carousel-item>
-        </v-carousel>
+        <v-carousel :show-arrows="false">
+    <v-carousel-item
+      v-for="(item,i) in items"
+      :key="i"
+      :src="item.src"
+    ></v-carousel-item>
+  </v-carousel>
 
         <v-alert class="mt-5 text-center" color="grey darken-4" text-center dark dense>
             Environnements
@@ -36,14 +39,9 @@ export default {
     data: () => ({
         items: [
             {
-                src:"https://s2.glbimg.com/4he57nbBRyVkzBuc9tDIDaKMI0s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_b3309463db95468aa275bd532137e960/internal_photos/bs/2021/n/U/Hu2GiqTGqqkICLOsvhFA/belleville.jpg", 
+                src:"https://uk.luberoncoeurdeprovence.com/image/45857-normal.jpg", 
             },
-            {
-                src: "https://culturepassport.co/wp-content/uploads/2020/01/La-Fontaine-de-Belleville_IMG_1290.jpg",
-            },
-            {
-                src: "http://www.latrentaineparisienne.com/wp-content/uploads/2018/03/LaFontaineDeBelleville_01.jpeg",
-            },
+           
         ],
     }),
 }
