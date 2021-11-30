@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    props: ['mochaId', 'title', 'color', 'size', 'sheets', 'src'],
+    props: ['mochaId', 'title', 'src'],
 
     data: () => ({
         show: false,

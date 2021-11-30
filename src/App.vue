@@ -23,7 +23,7 @@
 
                     <template v-slot:extension>
                         <v-tabs color="white" align-with-title>
-                            <v-tab @click="goHome">    Début</v-tab>
+                            <v-tab @click="goHome">     Début</v-tab>
                             <v-tab @click="goFrappes">  Frappes</v-tab>
                             <v-tab @click="goLattes">   Lattes</v-tab>
                             <v-tab @click="goMochas">   Mochas</v-tab>
@@ -58,7 +58,7 @@
                 </div>
             </v-card>
 
-            <v-footer dark padless>
+            <v-footer blue padless>
                 <v-card flat tile class="blue white--text text-center">
                     <v-card-text>
                         <v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon>

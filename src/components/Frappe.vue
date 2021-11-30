@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    props: ['frappeId', 'title', 'color', 'size', 'src'],
+    props: ['frappeId', 'title',  'src'],
 
     data: () => ({
         show: false,

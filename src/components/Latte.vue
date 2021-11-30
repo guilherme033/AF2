@@ -12,7 +12,7 @@ template>
 
 <script>
 export default {
-    props: ['latteId', 'title', 'color', 'size', 'glass', 'src'],
+    props: ['latteId', 'title', 'src'],
 
     data: () => ({
         show: false,
