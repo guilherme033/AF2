@@ -1,8 +1,8 @@
 #1
-![image](https://user-images.githubusercontent.com/64237760/143985220-a87e5ba7-ac17-441f-96a8-d0bc0ccd9692.png)
+![image](https://user-images.githubusercontent.com/64237760/143985451-336d4a6f-205e-4775-9d98-d165377e094c.png)
 
 #2
-![image](https://user-images.githubusercontent.com/64237760/143985249-ec1bdab8-fa0b-4d6a-962f-624a52e2e203.png)
+![image](https://user-images.githubusercontent.com/64237760/143985485-7d7ec7e7-ede6-4426-9ba0-7c79b7225d6c.png)
 
 #3
 ![image](https://user-images.githubusercontent.com/64237760/143974959-034ed006-15fa-47ec-aa78-3e5c4cb9a6f6.png)
