@@ -10,7 +10,7 @@
                     <v-spacer></v-spacer>
 
                     <v-btn icon>
-                        <v-icon color="white">mdi-magnify</v-icon>
+                        <v-icon color="white">mdi-plus-outline</v-icon>
                     </v-btn>
 
                     <v-btn icon>
@@ -18,7 +18,7 @@
                     </v-btn>
 
                     <v-btn icon>
-                        <v-icon color="white">mdi-dots-vertical</v-icon>
+                        <v-icon color="white">mdi-account</v-icon>
                     </v-btn>
 
                     <template v-slot:extension>
@@ -53,7 +53,7 @@
                     </v-list>
                 </v-navigation-drawer>
 
-                <div id="content" class="pb-">
+                <div id="content" class="pb-10">
                     <router-view></router-view>
                 </div>
             </v-card>
