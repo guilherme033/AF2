@@ -6,7 +6,7 @@
                 <v-app-bar color="grey darken-4grey darken-4" prominent>
                     <v-app-bar-nav-icon color="white" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-                    <v-toolbar-title id="nameCompany">COFFE SHOP</v-toolbar-title>
+                    <v-toolbar-title id="name">COFFE SHOP</v-toolbar-title>
                     <v-spacer></v-spacer>
 
                     <v-btn icon>
@@ -53,7 +53,7 @@
                     </v-list>
                 </v-navigation-drawer>
 
-                <div id="myContent" class="pb-">
+                <div id="content" class="pb-">
                     <router-view></router-view>
                 </div>
             </v-card>
