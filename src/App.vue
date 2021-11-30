@@ -6,7 +6,7 @@
                 <v-app-bar color="grey darken-4grey darken-4" prominent>
                     <v-app-bar-nav-icon color="white" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-                    <v-toolbar-title id="name">COFFE SHOP</v-toolbar-title>
+                    <v-toolbar-title id="name">COFFEE SHOP</v-toolbar-title>
                     <v-spacer></v-spacer>
 
                     <v-btn icon>

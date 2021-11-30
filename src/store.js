@@ -35,7 +35,7 @@ export default new Vuex.Store({
             {title: "Mocha III",    src: "https://www.thespruceeats.com/thmb/Fh9f4uXLQUFGtGcgymrdyl2Uq3w=/1793x1345/smart/filters:no_upscale()/mocha-4797918-05-f664d7225d5a4b14abdeacd2bf48471f.jpg"},
             {title: "Mocha IV",     src: "https://static.parade.com/wp-content/uploads/2017/01/cafe-mocha-1.jpg"},
             {title: "Mocha V",      src:  "https://perfectdailygrind.com/wp-content/uploads/2020/09/Mocha-4.jpg"},
-            {title: "Mocha VI",      src:  "http://www.cafesoldera.com.br/images/mocha.jpg"},
+            {title: "Mocha VI",     src:  "http://www.cafesoldera.com.br/images/mocha.jpg"},
         ],
     },
     mutations: {
