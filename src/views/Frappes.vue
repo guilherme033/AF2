@@ -3,7 +3,7 @@
         <h1 class="text-center my-4">Frappes</h1>
         <v-row>
             <v-col v-for="(data, i) in Frappes" :key="data" cols="12" sm="6" md="4" lg="3" xl="2">
-                <Frappe :frappeId="i" :title="data.title" :color="data.color" :size="data.size" :src="data.src" />
+                <Frappe :frappeId="i" :title="data.title" :src="data.src" />
             </v-col>
         </v-row>
     </div>
