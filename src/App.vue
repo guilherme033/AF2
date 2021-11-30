@@ -95,8 +95,8 @@ export default {
         icons: [
             'mdi-facebook',
             'mdi-twitter',
-            'mdi-linkedin',
             'mdi-instagram',
+            'mdi-youtube',
         ],
     }),
 
