@@ -1,21 +1,21 @@
 #1
-![image](https://user-images.githubusercontent.com/64237760/143800536-2b3b120f-d049-4a2f-abcb-2253dd65cdae.png)
+![image](https://user-images.githubusercontent.com/64237760/143974378-4e730dca-175e-452d-8103-c7616210de06.png)
 
 
 #2
-![image](https://user-images.githubusercontent.com/64237760/143800657-e55903a9-24b9-4ad7-929c-5731f845f3b4.png)
+![image](https://user-images.githubusercontent.com/64237760/143974447-06dccf5d-23ee-4e5f-a8a7-7f8dee256bbc.png)
 
 
 #3
-![image](https://user-images.githubusercontent.com/64237760/143967750-b4e13622-19f5-4462-b4e7-5e34b0618f98.png)
+![image](https://user-images.githubusercontent.com/64237760/143968477-b6c55308-4997-424c-95d4-fbb81e6ea9e4.png)
 
 
 #4
-![image](https://user-images.githubusercontent.com/64237760/143967861-18472118-e3fe-4ce9-a224-7f3a059620e7.png)
+![image](https://user-images.githubusercontent.com/64237760/143968536-dab664e8-7e22-4a17-9a61-62c9ef614fb5.png)
 
 
 #5
-![image](https://user-images.githubusercontent.com/64237760/143967942-d0ef41d8-dfe4-4598-a795-f600a0bfa4d6.png)
+![image](https://user-images.githubusercontent.com/64237760/143968580-3a49fcdb-4d70-4bc3-8a4e-8d9310919690.png)
 
 
 #6
