@@ -1,22 +1,14 @@
 AF3 - #1
+
 ![image](https://user-images.githubusercontent.com/64237760/144769960-554a4124-9f91-446f-a92f-e061d38fa6dc.png)
 
-
-
-
 AF3 - #2
+
 ![image](https://user-images.githubusercontent.com/64237760/144769981-aa5bcefe-4078-4d65-8a7b-653b10b33f2b.png)
 
-
-
-
-
 AF3 - #3
+
 ![image](https://user-images.githubusercontent.com/64237760/144769999-fc2214a1-ef09-40da-b18a-99147118d82e.png)
-
-
-
-
 
 AF2 - #1
 ![image](https://user-images.githubusercontent.com/64237760/143985451-336d4a6f-205e-4775-9d98-d165377e094c.png)
