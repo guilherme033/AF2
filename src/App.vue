@@ -6,7 +6,7 @@
                 <v-app-bar color="grey darken-4grey darken-4" prominent>
                     <v-app-bar-nav-icon color="white" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-                    <v-toolbar-title id="name">COFFEE SHOP</v-toolbar-title>
+                    <v-toolbar-title id="name">>{{ coffeShop }}</v-toolbar-title>
                     <v-spacer></v-spacer>
 
                     <v-btn icon>
@@ -23,10 +23,12 @@
 
                     <template v-slot:extension>
                         <v-tabs color="white" align-with-title>
-                            <v-tab @click="goHome">     Début</v-tab>
-                            <v-tab @click="goFrappes">  Frappes</v-tab>
-                            <v-tab @click="goLattes">   Lattes</v-tab>
-                            <v-tab @click="goMochas">   Mochas</v-tab>
+                            <v-tab @click="goHome">         Début</v-tab>
+                            <v-tab @click="goFrappes">      Frappes ({{ countFrappes }})</v-tab>
+                            <v-tab @click="goLattes">       Lattes  ({{ countLattes }})</v-tab>
+                            <v-tab @click="goMochas">       Mochas  ({{ countMochas }})</v-tab>
+                            <v-tab @click="goCertificates"> Certificates</v-tab>
+                            <v-tab @click="goHub">          Hub</v-tab>
                         </v-tabs>
                     </template>
                 </v-app-bar>
@@ -48,6 +50,12 @@
 
                             <v-list-item @click="goMochas">
                                 <v-list-item-title>Mochas</v-list-item-title>
+                            </v-list-item>
+                            <v-list-item @click="goCertificates">
+                                <v-list-item-title>Certificates</v-list-item-title>
+                            </v-list-item>
+                            <v-list-item @click="goHub">
+                                <v-list-item-title>Hub</v-list-item-title>
                             </v-list-item>
                         </v-list-item-group>
                     </v-list>
@@ -106,7 +114,22 @@ export default {
         },
     },
 
-    methods: {
+     computed: {
+        coffeShop() {
+            return this.$store.state.hub.coffeShop
+        },
+        countFrappes() {
+            return this.$store.getters.countFrappes
+        },
+        countLattes() {
+            return this.$store.getters.countLattes
+        },
+        countMochas() {
+            return this.$store.getters.countMochas
+        }
+    },
+
+     methods: {
         goHome(){
            this.$router.push('/') 
         },
@@ -118,7 +141,14 @@ export default {
         },
         goMochas(){
             this.$router.push('/mochas') 
+        },
+        goCertificates(){
+            this.$router.push('/certificates') 
+        },
+        goHub(){
+            this.$router.push('/hub') 
         }
-    }
+    },
+
 }
 </script>
