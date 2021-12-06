@@ -50,11 +50,8 @@ export default new Vuex.Store({
     mutations: {
         saveCoffeShop(state, name) {
             state.hub.coffeShop = name
-        },
-
-            
-        },
-
+        }
+     },
     
     actions: {
         setCoffeShop({commit}, data) {
