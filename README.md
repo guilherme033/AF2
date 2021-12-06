@@ -8,7 +8,7 @@ AF3 - #2
 
 AF3 - #3
 
-![image](https://user-images.githubusercontent.com/64237760/144769999-fc2214a1-ef09-40da-b18a-99147118d82e.png)
+![image](https://user-images.githubusercontent.com/64237760/144804615-1b4ac4d1-9aad-4075-9eae-7745f41f5e66.png)
 
 AF2 - #1
 ![image](https://user-images.githubusercontent.com/64237760/143985485-7d7ec7e7-ede6-4426-9ba0-7c79b7225d6c.png)
