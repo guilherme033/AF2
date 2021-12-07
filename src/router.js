@@ -4,7 +4,7 @@ import Home             from './views/Home.vue'
 import Frappes          from './views/Frappes.vue'
 import Lattes           from './views/Lattes.vue'
 import Mochas           from './views/Mochas.vue'
-import Certificates     from './views/Certificates.vue'
+import Videos           from './views/Videos.vue'
 import Hub              from './views/Hub.vue'
 
 Vue.use(Router)
@@ -34,9 +34,9 @@ export default new Router({
         },
 
         {
-            path: '/certificates',
-            name: 'Certificates',
-            component: Certificates
+            path: '/videos',
+            name: 'Videos',
+            component: Videos
         },
 
         {

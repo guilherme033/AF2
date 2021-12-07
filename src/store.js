@@ -6,8 +6,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        hub:
-        {
+        hub: {
                 coffeShop: "La Fontaine"
         },
         affiliates: [
@@ -43,28 +42,35 @@ export default new Vuex.Store({
             {title: "Mocha VI",             src: "http://www.cafesoldera.com.br/images/mocha.jpg"},
         ],
     
-    certificates: [
+    videos: [
 
         ]
     },
     mutations: {
         saveCoffeShop(state, name) {
             state.hub.coffeShop = name
-        }
-     },
-    
+        },
+        async saveYoutube(state, link) {
+            var items = {
+                title:  link.snippet.title,
+                link:   link.id,
+                views:  link.statistics.viewCount
+            }
+            state.videos.push(items);
+    }
+},
     actions: {
-        setCoffeShop({commit}, data) {
-            commit("saveCoffeShop", data)
+        setcoffeShop({commit}, data) {
+            commit("savecoffeShop", data)
         },
 
-        getApi({commit}) {
-            axios.get("https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=YOUR_API_KEY")
+        getYoutube({commit}, link) {
+            axios.get("https://www.googleapis.com/youtube/v3/videos?id=" + link + "&key=AIzaSyDMAEdVqkd6HTRPtLmotN0dBL4i1h1O7n8&part=snippet,contentDetails,statistics")
             .then((res) => {
-                commit("saveApi", res.data.items[0])
-    })
+                commit("saveYoutube", res.data.items[0])
+            })
         }
-            },
+    },
    
     getters: {
         countFrappes(state) {

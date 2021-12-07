@@ -4,7 +4,7 @@
 
         <div class="container">
             <form>
-                <v-text-field label="Name" v-model="input_name" hide-details="auto"></v-text-field>
+                <v-text-field label="Name Of" v-model="input_name" hide-details="auto"></v-text-field>
                 <v-row align="center mt-4" justify="space-around">
                     <v-btn type="submit" depressed color="success" v-on:click="submitForm">Changer</v-btn>
                 </v-row>

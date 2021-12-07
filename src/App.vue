@@ -27,7 +27,7 @@
                             <v-tab @click="goFrappes">      Frappes ({{ countFrappes }})</v-tab>
                             <v-tab @click="goLattes">       Lattes  ({{ countLattes }})</v-tab>
                             <v-tab @click="goMochas">       Mochas  ({{ countMochas }})</v-tab>
-                            <v-tab @click="goCertificates"> Certificates</v-tab>
+                            <v-tab @click="goVideos">       Videos</v-tab>
                             <v-tab @click="goHub">          Hub</v-tab>
                         </v-tabs>
                     </template>
@@ -51,8 +51,8 @@
                             <v-list-item @click="goMochas">
                                 <v-list-item-title>Mochas</v-list-item-title>
                             </v-list-item>
-                            <v-list-item @click="goCertificates">
-                                <v-list-item-title>Certificates</v-list-item-title>
+                            <v-list-item @click="goVideos">
+                                <v-list-item-title>Videos</v-list-item-title>
                             </v-list-item>
                             <v-list-item @click="goHub">
                                 <v-list-item-title>Hub</v-list-item-title>
@@ -142,13 +142,23 @@ export default {
         goMochas(){
             this.$router.push('/mochas') 
         },
-        goCertificates(){
-            this.$router.push('/certificates') 
+        goVideos(){
+            this.$router.push('/videos') 
         },
         goHub(){
             this.$router.push('/hub') 
         }
     },
+
+     created(){
+        this.$store.dispatch("getYoutube", "FlHoKOazyVU")
+        this.$store.dispatch("getYoutube", "1lx91nhzNe0")
+        this.$store.dispatch("getYoutube", "idn50Xj_CiY")
+        this.$store.dispatch("getYoutube", "WZ4oN2aZzDw&")
+        this.$store.dispatch("getYoutube", "fR2rrmw3I")
+        this.$store.dispatch("getYoutube", "RghVaptmjws")
+    
+    }
 
 }
 </script>
