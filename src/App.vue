@@ -151,12 +151,12 @@ export default {
     },
 
      created(){
-        this.$store.dispatch("getYoutube", "FlHoKOazyVU")
-        this.$store.dispatch("getYoutube", "1lx91nhzNe0")
-        this.$store.dispatch("getYoutube", "idn50Xj_CiY")
-        this.$store.dispatch("getYoutube", "WZ4oN2aZzDw&")
-        this.$store.dispatch("getYoutube", "fR2rrmw3I")
-        this.$store.dispatch("getYoutube", "RghVaptmjws")
+        this.$store.dispatch("getYoutube", "lNTXA7KZoMA")
+        this.$store.dispatch("getYoutube", "FNHf1gJSJyg")
+        this.$store.dispatch("getYoutube", "4StCwLWU2tg")
+        this.$store.dispatch("getYoutube", "7RzdhbIx5zI&")
+        this.$store.dispatch("getYoutube", "fdQqDl_edFc")
+        this.$store.dispatch("getYoutube", "ntupNMWQk94")
     
     }
 
